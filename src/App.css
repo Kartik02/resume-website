@@ -1,38 +1,127 @@
 .App {
-  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.name-section {
+  background-color: #f24e1e;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.education-section {
+  background-color: rgb(244, 255, 218);
 }
 
-.App-header {
-  background-color: #282c34;
+.why-hire-me-section {
+  background-color: #099706;
+}
+
+.conclusion-section {
+  background-color: #0072ce;
+}
+.heading {
+  padding-inline: 80px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.heading > .title {
+  font-size: 64px;
+  font-weight: bold;
   color: white;
+  margin-bottom: 60px;
 }
 
-.App-link {
-  color: #61dafb;
+.heading > .subtext {
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  padding-inline: 120px;
+  color: rgb(231, 230, 230);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.side-section {
+  padding-inline: 80px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.side-section > .feature-image {
+  width: 50%;
+  padding-block: 80px;
+}
+
+.side-section > .feature-image > img {
+  width: 100%;
+}
+
+.side-section > .context {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  flex: 1;
+  padding-block: 80px;
+}
+
+.side-section > .context > .title {
+  font-size: 64px;
+  font-weight: bold;
+  color: #222222;
+}
+
+.side-section > .context > .points {
+  font-size: 18px;
+  color: #4a4a4a;
+}
+
+.technical-skills-section > .side-section {
+  flex-direction: row-reverse;
+}
+
+.grid-view-section {
+  padding-inline: 80px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.grid-view-section > .title {
+  padding-top: 80px;
+  font-size: 64px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.grid-view-section > .context {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.grid-view-section > .context > .item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 30%;
+  align-items: center;
+}
+
+.grid-view-section > .context > .item > .subtext {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.grid-view-section > .context > .item > img {
+  width: 100%;
+}
+
+.projects-section {
+  background-color: #4a4a4a;
+}
+.interests-section {
+  background-color: #1b2237;
 }
