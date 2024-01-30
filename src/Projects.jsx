@@ -6,25 +6,30 @@ function Projects() {
     {
       subtext: (
         <div>
-          <h4>Project 1</h4>
-          <h3>SIGN LANGUAGE TO TEXT & VOICE CONVERSION</h3>
-          <h4>Technology: Python, Open CV</h4>
-          <div>Aim is to create a system that can convert Sign Language into text than into Speech. </div>
-          <div>It is used to communicate between deaf & disabled people. </div>
-          <div>The main drawback and advantage about this project is you need to learn Sign Language to run this project.</div>
+          <h2 className="h2-text">Project 1</h2>
+          <h3 className="h3-text">SIGN LANGUAGE TO TEXT & VOICE CONVERSION</h3>
+          <h3 className="h3-text">Technology: Python, Open CV</h3>
+          <div className="body-text">
+            Aim is to create a system that can convert Sign Language into text
+            than into Speech. It is used to communicate between deaf & disabled
+            people. The main drawback and advantage about this project is you
+            need to learn Sign Language to run this project.
+          </div>
         </div>
       ),
     },
     {
       subtext: (
         <div>
-          <h4>Project 2</h4>
-          <h3>STUDENT FEEDBACK SYSTEM</h3>
-          <h4>Technology: Java, MySQL</h4>
-          <div>Aim is to make Student Feedback System helps educational  </div>
-          <div>Institution especially college in various ways, Such as Storing data & </div>
-          <div>Maintaining Student Feedback. I Developed this as First Year Project.
-.</div> 
+          <h2 className="h2-text">Project 2</h2>
+          <h3 className="h3-text">STUDENT FEEDBACK SYSTEM</h3>
+          <h3 className="h3-text">Technology: Java, MySQL</h3>
+          <div className="body-text">
+            Aim is to make student feedback system helps educational institution
+            especially college in various ways, such as storing data &
+            maintaining student feedback. I developed this as first year
+            project.
+          </div>
         </div>
       ),
     },

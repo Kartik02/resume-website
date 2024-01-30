@@ -122,6 +122,23 @@
 .projects-section {
   background-color: #4a4a4a;
 }
+.projects-section > .grid-view-section > .context {
+  flex-wrap: nowrap;
+  gap: 80px;
+}
 .interests-section {
   background-color: #1b2237;
+}
+
+.h2-text {
+  font-size: 36px;
+}
+
+.h3-text {
+  font-size: 28px;
+}
+
+.body-text {
+  font-size: 20px;
+  line-height: 42px;
 }
