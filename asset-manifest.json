@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/resume-website/static/css/main.c0690782.css",
+    "main.js": "/resume-website/static/js/main.112a9a28.js",
+    "static/js/787.883ba16e.chunk.js": "/resume-website/static/js/787.883ba16e.chunk.js",
+    "static/media/education.svg": "/resume-website/static/media/education.9b3f4dd669965fa1706a7f67cd557920.svg",
+    "static/media/dancing.svg": "/resume-website/static/media/dancing.b0ccc9ee2aca00d5558329c62c5a2ad0.svg",
+    "static/media/trekking.svg": "/resume-website/static/media/trekking.9cdb3e9307774b005006fbdcbd9e5627.svg",
+    "static/media/techskills.svg": "/resume-website/static/media/techskills.c7223ac93b5db7d9e053137edae0aa06.svg",
+    "static/media/gaming.svg": "/resume-website/static/media/gaming.f8d6b78d30ab4344b1ac6232ae7ccaf8.svg",
+    "index.html": "/resume-website/index.html",
+    "main.c0690782.css.map": "/resume-website/static/css/main.c0690782.css.map",
+    "main.112a9a28.js.map": "/resume-website/static/js/main.112a9a28.js.map",
+    "787.883ba16e.chunk.js.map": "/resume-website/static/js/787.883ba16e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0690782.css",
+    "static/js/main.112a9a28.js"
+  ]
+}
